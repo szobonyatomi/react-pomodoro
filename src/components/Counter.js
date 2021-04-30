@@ -85,7 +85,7 @@ function Counter() {
       } else {
         setSeconds(seconds - 1);
       }
-    }, 10);
+    }, 1000);
   };
 
   //Set timer's character
