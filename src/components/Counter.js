@@ -32,6 +32,11 @@ function Counter() {
     return;
   }
 
+  if (session < 1) {
+    alert('Please set timer bigger than 0! Thank you!');
+    setSession(1);
+  }
+
   //Timer
   const timer = () => {
     let interval = setInterval(() => {

@@ -80499,6 +80499,11 @@ function Counter() {
     alert('Please set timer bigger than 0! Thank you!');
     setBreakTime(0);
     return;
+  }
+
+  if (session < 1) {
+    alert('Please set timer bigger than 0! Thank you!');
+    setSession(1);
   } //Timer
 
 
@@ -80769,7 +80774,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49983" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50043" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
