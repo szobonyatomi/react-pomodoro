@@ -9,8 +9,6 @@
 
 ### 🏠 [tomi-pomodoro](https://tomi-pomodoro.netlify.app/)
 
-### ✨ [Demo](https://szobonyatomi.github.io/react-pomodoro/)
-
 ## Author
 
 👤 **Tomi Szobonya**
